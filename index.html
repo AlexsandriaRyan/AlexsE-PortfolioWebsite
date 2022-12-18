@@ -11,122 +11,127 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
 
+<!-- add a wrapper aroun the body and main, then css it to keep it justified in the center / space between the wrapper and the footer -->
 
 
     <body>
-        <header>
-            <div class="outer-container">
+
+        <div id="wrapper">
+
+            <header>
+                <div class="outer-container">
+                    <div class="row">
+                        <h2 class="outer-container-text">welcome</h2>
+                        <div class="boxes">
+                            <div class="box box1">&nbsp</div>
+                            <div class="box box2">&nbsp</div>
+                            <div class="box box3">&nbsp</div>
+                        </div>
+                    </div>
+                    <div class="inner-container-content">
+                        <div class="inner-container"></div> 
+                        <div class="column">
+                            <h1 class="title1">Alexsandria<br>Ryan</h1>
+                            <h1 class="title2">Alex<br>Ryan</h1>
+                        </div>
+                        <div class="row row1">
+                            <div class="column column1">
+                                <p>Hire me. Or don't.</p>
+                                <p class="bolder">I'm not your mom.</p>
+                            </div>
+                            <div class="column column2">
+                                <p>No, but for real.</p>
+                                <p class="bold">Let's talk development.</p>
+                                <a class="email-button" href="mailto:alexsandriapatrice@gmail.com">Email Alex Now</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </header>
+            
+    
+    
+            <main>
                 <div class="row">
-                    <h2 class="outer-container-text">welcome</h2>
-                    <div class="boxes">
-                        <div class="box box1">&nbsp</div>
-                        <div class="box box2">&nbsp</div>
-                        <div class="box box3">&nbsp</div>
-                    </div>
-                </div>
-                <div class="inner-container-content">
-                    <div class="inner-container"></div> 
+    
+                    <!-- ********** ABOUT ********** -->
                     <div class="column">
-                        <h1 class="title1">Alexsandria<br>Ryan</h1>
-                        <h1 class="title2">Alex<br>Ryan</h1>
-                    </div>
-                    <div class="row row1">
-                        <div class="column column1">
-                            <p>Hire me. Or don't.</p>
-                            <p class="bolder">I'm not your mom.</p>
-                        </div>
-                        <div class="column column2">
-                            <p>No, but for real.</p>
-                            <p class="bold">Let's talk development.</p>
-                            <a class="email-button" href="mailto:alexsandriapatrice@gmail.com">Email Alex Now</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </header>
-        
-
-
-        <main>
-            <div class="row">
-
-                <!-- ********** ABOUT ********** -->
-                <div class="column">
-                    <div class="outer-container">
-                        <div class="row">
-                            <h2 class="outer-container-text">about</h2>
-                            <div class="boxes">
-                                <div class="box box1">&nbsp</div>
-                                <div class="box box2">&nbsp</div>
-                                <div class="box box3">&nbsp</div>
+                        <div class="outer-container">
+                            <div class="row">
+                                <h2 class="outer-container-text">about</h2>
+                                <div class="boxes">
+                                    <div class="box box1">&nbsp</div>
+                                    <div class="box box2">&nbsp</div>
+                                    <div class="box box3">&nbsp</div>
+                                </div>
                             </div>
-                        </div>
-                        <a href="about.html">
-                            <img onmouseover = "mouseOver1()" onmouseout="mouseOut1()" id="about" src="./images/Icons/about-bw.jpg">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- ********** PROJECTS ********** -->
-                <div class="column">
-                    <div class="outer-container">
-                        <div class="row">
-                            <h2 class="outer-container-text">projects</h2>
-                            <div class="boxes">
-                                <div class="box box1">&nbsp</div>
-                                <div class="box box2">&nbsp</div>
-                                <div class="box box3">&nbsp</div>
-                            </div>
-                        </div>
-                        <div class="row row1">
-                            <a href="projects.html">
-                                <img onmouseover = "mouseOver2()" onmouseout="mouseOut2()" id="projects" src="./images/Icons/projects-bw.jpg">
+                            <a href="about.html">
+                                <img onmouseover = "mouseOver1()" onmouseout="mouseOut1()" id="about" src="./images/Icons/about-bw.jpg">
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <!-- ********** SKILLS ********** -->
-                <div class="column">
-                    <div class="outer-container">
-                        <div class="row">
-                            <h2 class="outer-container-text">skills</h2>
-                            <div class="boxes">
-                                <div class="box box1">&nbsp</div>
-                                <div class="box box2">&nbsp</div>
-                                <div class="box box3">&nbsp</div>
+    
+                    <!-- ********** PROJECTS ********** -->
+                    <div class="column">
+                        <div class="outer-container">
+                            <div class="row">
+                                <h2 class="outer-container-text">projects</h2>
+                                <div class="boxes">
+                                    <div class="box box1">&nbsp</div>
+                                    <div class="box box2">&nbsp</div>
+                                    <div class="box box3">&nbsp</div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <a href="projects.html">
+                                    <img onmouseover = "mouseOver2()" onmouseout="mouseOut2()" id="projects" src="./images/Icons/projects-bw.jpg">
+                                </a>
                             </div>
                         </div>
-                        <div class="row row1">
-                            <a href="skills.html">
-                                <img onmouseover = "mouseOver3()" onmouseout="mouseOut3()" id="skills" src="./images/Icons/skills-bw.jpg">
-                            </a>
+                    </div>
+    
+                    <!-- ********** SKILLS ********** -->
+                    <div class="column">
+                        <div class="outer-container">
+                            <div class="row">
+                                <h2 class="outer-container-text">skills</h2>
+                                <div class="boxes">
+                                    <div class="box box1">&nbsp</div>
+                                    <div class="box box2">&nbsp</div>
+                                    <div class="box box3">&nbsp</div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <a href="skills.html">
+                                    <img onmouseover = "mouseOver3()" onmouseout="mouseOut3()" id="skills" src="./images/Icons/skills-bw.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- ********** CONTACT ********** -->
+                    <div class="column">
+                        <div class="outer-container">
+                            <div class="row">
+                                <h2 class="outer-container-text">contact</h2>
+                                <div class="boxes">
+                                    <div class="box box1">&nbsp</div>
+                                    <div class="box box2">&nbsp</div>
+                                    <div class="box box3">&nbsp</div>
+                                </div>
+                            </div>
+                            <div class="row row1">
+                                <a href="contact.html">
+                                    <img onmouseover = "mouseOver4()" onmouseout="mouseOut4()" id="contact" src="./images/Icons/contact-bw.jpg">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </main>
 
-                <!-- ********** CONTACT ********** -->
-                <div class="column">
-                    <div class="outer-container">
-                        <div class="row">
-                            <h2 class="outer-container-text">contact</h2>
-                            <div class="boxes">
-                                <div class="box box1">&nbsp</div>
-                                <div class="box box2">&nbsp</div>
-                                <div class="box box3">&nbsp</div>
-                            </div>
-                        </div>
-                        <div class="row row1">
-                            <a href="contact.html">
-                                <img onmouseover = "mouseOver4()" onmouseout="mouseOut4()" id="contact" src="./images/Icons/contact-bw.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-
+        </div> 
+        <!-- end wrapper -->
         
         <footer>
             <div class="container">
