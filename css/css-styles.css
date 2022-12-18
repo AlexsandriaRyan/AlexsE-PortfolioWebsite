@@ -164,6 +164,7 @@ header .column2 {
     border-radius: 0.5rem;
     background-color: rgba(var(--light-orange),0.4);
     filter: saturate(110%) contrast(150%);
+    -webkit-filter: saturate(110%) contrast(150%);
     line-height: 100%;
 }
 
@@ -236,8 +237,6 @@ main {
     margin: auto;
 }
 
-
-
 main a {
     margin: auto;
     display: flex;
@@ -259,6 +258,29 @@ main h2 {
     margin: 1%;
     padding: 1%;
     width: 50%;
+}
+
+main .column-content {
+    width: 100%;
+}
+
+main .column-content .outer-container-text {
+    padding: 0;
+}
+
+main .content {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgb(var(--darker-blue));
+    border-radius: 0.5rem;
+    background: rgb(var(--dark-blue));
+    text-align: center;
+}
+
+main .content p {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
 }
 
 
@@ -490,7 +512,6 @@ footer hr {
     header .inner-container-content {
         padding: 3% 4% 3% 4%;
     }
-    
     
     main .column {
         max-width: 23%;
