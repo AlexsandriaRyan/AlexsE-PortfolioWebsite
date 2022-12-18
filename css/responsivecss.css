@@ -1,0 +1,600 @@
+:root {
+    --light-orange:     223, 172, 134;
+    --dark-orange:      167, 104, 58;
+    --muted-pink:       205, 155, 159;
+    --dark-pink:        148, 110, 113;
+    --muted-purple:     155, 137, 169;
+    --dark-purple:      103, 88, 116;
+    --dark-blue:        79, 78, 104;
+    --darker-blue:      46, 46, 62;
+}
+
+
+
+/* -------------------- general styles  -------------------- */
+
+* {
+    margin: 0; 
+    padding: 0;  
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-break: normal;   
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(var(--darker-blue), 0) 10%, rgba(var(--darker-blue), 1) 90%), url("../images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-weight: 300;
+    line-height: 100%;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    line-height: 90%;
+    text-shadow: 0px 2px 10px rgba(0,0,0,0.7);
+}
+
+h2 {
+    font-weight: 400;
+    text-transform: lowercase;   
+    letter-spacing: 0.2em;
+    margin: 1%;
+    width: 50%;
+}
+
+.outer-container {
+    border: 1px solid rgb(var(--darker-blue));
+    border-radius: 0.5rem;
+    padding: 0rem 0.3rem 0.3rem 0.3rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1%;
+}
+
+.box {
+    margin: 0vw 0vw 0vw 0.3vw;
+}
+
+.box1 {
+    background-color: rgb(var(--muted-purple));
+    border: 1px solid rgb(var(--dark-purple));
+    border-radius: 15%;
+}
+
+.box2 {
+    background-color: rgb(var(--light-orange));
+    border: 1px solid rgb(var(--dark-orange));
+    border-radius: 15%;
+}
+
+.box3 {
+    background-color: rgb(var(--muted-pink));
+    border: 1px solid rgb(var(--dark-pink));
+    border-radius: 15%;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+
+
+/* -------------------- header styles  -------------------- */
+
+header {
+    display: flex;
+    margin: auto;
+}
+
+header .outer-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+main .outer-container {
+    background: linear-gradient(to bottom, rgb(var(--dark-blue)), rgb(var(--light-orange))); 
+}
+
+header .inner-container {
+    border: 1px solid rgb(var(--darker-blue));
+    border-radius: 0.5rem;
+}
+
+header .inner-container-content {
+    border: 1px solid rgb(var(--darker-blue));
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+header .inner-container {
+    position: absolute;
+    padding: 0;
+    left: -50px;
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    border-width: 50px;
+    border-image: linear-gradient(to bottom, rgb(var(--dark-blue)), rgb(var(--light-orange))) 1;
+    z-index: -1;
+}
+
+header .inner-container::after {
+    content: "";
+    display:block;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(var(--light-orange), 0.25));
+    backdrop-filter: blur(2px);
+    filter: saturate(110%) contrast(150%) brightness(70%);
+}
+
+header .row1 {
+    align-items: center;
+}
+
+header .column2 {
+    padding: 2%;
+    text-align: right;
+    border: 1px solid rgb(var(--darker-blue));
+    border-radius: 0.5rem;
+    background-color: rgba(var(--light-orange),0.4);
+    filter: saturate(110%) contrast(150%);
+    line-height: 100%;
+}
+
+header .column2 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(var(--dark-blue));
+    border-radius: 0.35rem;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2% 8% 2% 8%;
+    width: 65%;
+    background-color: white;
+    color: rgb(var(--dark-blue));
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+}
+
+header .bold {
+    font-weight:500;
+    letter-spacing: 0.1em;
+}
+
+header .bolder {
+    font-weight:700;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+}
+
+
+
+/* -------------------- header menu styles  -------------------- */
+
+header .menu {
+    margin-top: -30px;
+    text-align: end;
+}
+
+header ul li {
+    padding: 1%;
+    display: inline;
+    font-weight: 300;
+    font-size:calc(8px + 0.2vw);
+    letter-spacing: 0.1em;
+    line-height: 2.0;
+    text-transform: lowercase;
+    list-style: none;
+    
+}
+
+header ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover {
+    color: rgb(var(--light-orange));
+    font-weight: 500;
+}
+
+
+
+/* -------------------- main styles  -------------------- */
+
+main {
+    margin: auto;
+}
+
+
+
+main a {
+    margin: auto;
+    display: flex;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid rgb(var(--darker-blue));
+    border-radius: 0.5rem;
+}
+
+main h2 {
+    font-size: calc(8px + 0.3vw);
+    font-weight: 400;
+    text-transform: lowercase;   
+    letter-spacing: 0.2em;
+    margin: 1%;
+    padding: 1%;
+    width: 50%;
+}
+
+
+
+/* -------------------- footer styles  -------------------- */
+
+footer {
+    margin-top: auto;
+    align-items: center;
+    background-color: rgb(var(--darker-blue));
+    border-top: 2px solid rgb(var(--light-orange));
+    font-weight: 300;
+    font-size:calc(8px + 0.2vw);
+    letter-spacing: 0.2em;
+    line-height: 2.0;
+    text-transform: lowercase;   
+}
+
+footer .container {
+    display: flex;
+    margin:auto;
+    align-items: center;
+}
+
+footer .column {
+    width: 100%;
+    height: 100%;
+}
+
+footer .column1 {
+    width:33.33%;
+}
+
+footer .column2 li {
+    float: left;
+}
+
+footer .column3 {
+    width:33.33%;
+    text-align: right;
+}
+
+footer .nav2 li {
+    width: 33.33%;
+}
+
+footer ul li, footer a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: rgb(var(--light-orange));
+    font-weight: 500;
+}
+
+footer hr {
+    border: 0px;
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    opacity: 1;
+    background: rgb(var(--light-orange));
+}
+
+
+
+/* ///------------------------- Mobile Styles: 0px to 374px -------------------------///*/
+
+@media only screen and (max-width: 374px) {
+
+    .box {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    /* header styles*/
+
+    header {
+        width: 80vw;
+    }
+
+    header h1 {
+        font-size: 13vw;
+    }
+
+    header h2 {
+        font-size: 3vw;
+    }
+
+    header .title1 {
+        display: none
+    }
+
+    header .title2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    header .inner-container-content {
+        padding: 8% 10% 8% 10%;
+    }
+
+    header .row1 {
+        flex-direction: column;
+    }
+
+    header .column {
+        margin: auto;
+        padding: 5%;
+        margin-top: 5%;
+    }
+
+    header .column1 {
+        font-size: 5vw;
+    }
+
+    header .column2 {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    /* main styles*/
+
+    main {
+        width: 80%;
+    }
+
+    main .row {
+        flex-wrap: wrap;
+    }
+
+    main .column {
+        width: 45%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    main .box {
+        height: 1vw;
+        width: 1vw;
+    }
+
+    /* footer styles*/
+
+    footer {
+        padding: 3% 0% 3% 0%;
+    }
+
+    footer .container {
+        width: 80%;
+    }
+
+    footer .column1 {
+        display: none;
+    }
+
+    footer .column2 {
+        width:100%;
+        text-align: center;
+    }
+
+    footer .column3 {
+        display: none;
+    }
+
+    footer .nav1 li {
+        width: 25%;
+    }
+
+    footer .nav1 li img {
+        height: 6vw;
+    }
+
+}
+
+
+
+/* ///------------------------- Tablet Styles: 375px to 768px -------------------------///*/
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+
+    .box {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    header {
+        width: 80vw;
+    }
+
+    header h1 {
+        font-size: 15vw;
+    }
+
+    header h2 {
+        font-size: 3vw;
+    }
+
+    header .title1 {
+        display: none
+    }
+
+    header .title2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    header .inner-container-content {
+        padding: 8% 10% 8% 10%;
+    }
+
+    header .row1 {
+        flex-direction: column;
+    }
+
+    header .column {
+        margin: auto;
+        padding: 5%;
+    }
+
+    header .column1 {
+        font-size: 18px;
+    }
+
+    header .column2 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    
+
+}
+
+
+
+/* ///------------------------- Laptop Styles: greater than 769px -------------------------///*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    html, body {
+        overflow: hidden;
+    }
+
+    header .title1 {
+        display: inline-block;
+    }
+
+    header .title2 {
+        display: none;
+    }
+}
+
+/* ///------------------------- Desktop Styles: greater than 769px -------------------------///*/
+@media only screen and (min-width: 1025px) {
+
+    .box {
+        height: 1.3vw;
+        width: 1.3vw;
+    }
+
+    html, body {
+        overflow: hidden;
+    }
+
+    header {
+        width: 50vw;
+        margin-top: 100px;
+    }
+
+    header h2 {
+        font-size: 1vw;
+    }
+
+    header .title1 {
+        display: inline-block;
+    }
+
+    header .title2 {
+        display: none;
+    }
+
+    header .column1 {
+        width: 60%;
+        font-size: 1.5vw;
+    }
+
+    header .column2 {
+        width: 40%;
+        font-size: 1vw;
+    }
+
+    header .column2 a {
+        font-size: 0.9vw;
+    }
+
+    header .inner-container-content {
+        padding: 3% 4% 3% 4%;
+    }
+
+    main .column {
+        max-width: 23%;
+    }
+
+    main .box {
+        height: 0.8vw;
+        width: 0.8vw;
+    }
+
+
+    footer .column2 {
+        width:33.33%;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    footer .nav1 li {
+        width: 25%;
+    }
+
+    footer .nav1 li img {
+        vertical-align: middle;
+        height: 1.5vw;
+        min-height: 12px;
+        max-height: 30px;
+    }
+
+}
