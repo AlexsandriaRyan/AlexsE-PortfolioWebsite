@@ -458,12 +458,14 @@ footer hr {
         width: 2.5vw;
     }
 
+    /* header styles*/
+
     header {
         width: 80vw;
     }
 
     header h1 {
-        font-size: 15vw;
+        font-size: 13vw;
     }
 
     header h2 {
@@ -490,19 +492,69 @@ footer hr {
     header .column {
         margin: auto;
         padding: 5%;
+        margin-top: 5%;
     }
 
     header .column1 {
-        font-size: 18px;
+        font-size: 5vw;
     }
 
     header .column2 {
-        font-size: 12px;
+        font-size: 3.5vw;
         text-align: center;
     }
 
-    
+    /* main styles*/
 
+    main {
+        width: 80%;
+    }
+
+    main .row {
+        flex-wrap: wrap;
+    }
+
+    main .column {
+        width: 45%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    main .box {
+        height: 1vw;
+        width: 1vw;
+    }
+
+    /* footer styles*/
+
+    footer {
+        padding: 3% 0% 3% 0%;
+    }
+
+    footer .container {
+        width: 80%;
+    }
+
+    footer .column1 {
+        display: none;
+    }
+
+    footer .column2 {
+        width:100%;
+        text-align: center;
+    }
+
+    footer .column3 {
+        display: none;
+    }
+
+    footer .nav1 li {
+        width: 25%;
+    }
+
+    footer .nav1 li img {
+        height: 6vw;
+    }
 }
 
 
