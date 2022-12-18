@@ -568,7 +568,7 @@ footer hr {
     }
 }
 
-/* ///------------------------- Desktop Styles: greater than 769px -------------------------///*/
+/* ///------------------------- Desktop Styles: greater than 1025px -------------------------///*/
 @media only screen and (min-width: 1025px) {
 
     .box {
@@ -584,7 +584,7 @@ footer hr {
     
     header {
         width: 50vw;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     
     header .title1 {
