@@ -387,7 +387,7 @@ footer hr {
         text-align: center;
     }
 
-    header .column2 a {
+    header .column2 .email-button {
         font-size: 2.5vw;
     }
 
@@ -503,7 +503,7 @@ footer hr {
         text-align: center;
     }
 
-    header .column2 a {
+    header .column2 .email-button {
         font-size: 2.5vw;
     }
 
