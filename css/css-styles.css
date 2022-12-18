@@ -329,7 +329,7 @@ footer hr {
 
 /* ///------------------------- Mobile Styles: 0px to 374px -------------------------///*/
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 768px) {
 
     .box {
         height: 2.5vw;
@@ -443,133 +443,17 @@ footer hr {
 
 /* ///------------------------- Tablet Styles: 375px to 768px -------------------------///*/
 
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+/* @media only screen and (min-width: 375px) and (max-width: 768px) {
 
-    .box {
-        height: 2.5vw;
-        width: 2.5vw;
-    }
-
-    /* header styles*/
-
-    header {
-        width: 80vw;
-        margin-top: 10%;
-    }
-
-    header h1 {
-        font-size: 13vw;
-    }
-
-    header h2 {
-        font-size: 3vw;
-    }
-
-    header .title1 {
-        display: none
-    }
-
-    header .title2 {
-        display: inline-block;
-        text-align: center;
-    }
-
-    header .inner-container-content {
-        padding: 8% 10% 8% 10%;
-    }
-
-    header .row1 {
-        flex-direction: column;
-    }
-
-    header .column {
-        margin: auto;
-        padding: 5%;
-        margin-top: 5%;
-    }
-
-    header .column1 {
-        font-size: 5vw;
-    }
-
-    header .column2 {
-        font-size: 3.5vw;
-        text-align: center;
-    }
-
-    header .column2 .email-button {
-        font-size: 2.5vw;
-    }
-
-    /* main styles*/
-
-    main {
-        width: 80%;
-    }
-
-    main .row {
-        flex-wrap: wrap;
-    }
-
-    main .column {
-        width: 45%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    main .box {
-        height: 1vw;
-        width: 1vw;
-    }
-
-    /* footer styles*/
-
-    footer {
-        padding: 3% 0% 3% 0%;
-    }
-
-    footer .container {
-        width: 80%;
-    }
-
-    footer .column1 {
-        display: none;
-    }
-
-    footer .column2 {
-        width:100%;
-        text-align: center;
-    }
-
-    footer .column3 {
-        display: none;
-    }
-
-    footer .nav1 li {
-        width: 25%;
-    }
-
-    footer .nav1 li img {
-        height: 6vw;
-    }
-}
-
-
+} */
 
 /* ///------------------------- Laptop Styles: greater than 769px -------------------------///*/
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-    header .title1 {
-        display: inline-block;
-    }
-
-    header .title2 {
-        display: none;
-    }
-}
+} */
 
 /* ///------------------------- Desktop Styles: greater than 1025px -------------------------///*/
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 769px) {
 
     .box {
         height: 1.3vw;
