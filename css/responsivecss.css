@@ -21,7 +21,7 @@
 
 html, body{
     height: 100%;
-    
+    width: 100%;
 }
 
 body {
@@ -342,6 +342,10 @@ footer hr {
 
 @media only screen and (max-width: 374px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .box {
         height: 2.5vw;
         width: 2.5vw;
@@ -351,6 +355,7 @@ footer hr {
 
     header {
         width: 80vw;
+        margin-top: 10%;
     }
 
     header h1 {
@@ -453,6 +458,10 @@ footer hr {
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .box {
         height: 2.5vw;
         width: 2.5vw;
@@ -462,6 +471,7 @@ footer hr {
 
     header {
         width: 80vw;
+        margin-top: 10%;
     }
 
     header h1 {
