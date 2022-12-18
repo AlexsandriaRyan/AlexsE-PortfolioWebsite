@@ -19,9 +19,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    background-image: linear-gradient(to bottom, rgba(var(--darker-blue), 0) 10%, rgba(var(--darker-blue), 1) 90%), url("../images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 html, body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -31,10 +39,7 @@ body {
     justify-content: space-between;
     word-break: normal;   
     color: white;
-    background-image: linear-gradient(to bottom, rgba(var(--darker-blue), 0) 10%, rgba(var(--darker-blue), 1) 90%), url("../images/Background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 p {
@@ -398,6 +403,10 @@ footer hr {
         text-align: center;
     }
 
+    header .column2 a {
+        font-size: 3vw;
+    }
+
     /* main styles*/
 
     main {
@@ -457,10 +466,6 @@ footer hr {
 /* ///------------------------- Tablet Styles: 375px to 768px -------------------------///*/
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
-
-    body {
-        overflow-x: hidden;
-    }
 
     .box {
         height: 2.5vw;
@@ -571,10 +576,6 @@ footer hr {
 
 /* ///------------------------- Laptop Styles: greater than 769px -------------------------///*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-    html, body {
-        overflow: hidden;
-    }
 
     header .title1 {
         display: inline-block;
