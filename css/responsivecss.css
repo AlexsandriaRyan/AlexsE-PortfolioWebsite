@@ -503,6 +503,10 @@ footer hr {
         text-align: center;
     }
 
+    header .column2 a {
+        font-size: 3vw;
+    }
+
     /* main styles*/
 
     main {
