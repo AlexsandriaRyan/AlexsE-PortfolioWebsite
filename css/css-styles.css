@@ -173,6 +173,10 @@ h3 {
     font-weight: 300;
 }
 
+tooltip-top:not(active), .tooltip-bottom:not(active) {
+    visibility:hidden;
+}
+
 
 
 
