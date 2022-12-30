@@ -168,16 +168,10 @@ h3 {
     border-color: transparent transparent black transparent;
 }
 
-.tooltip-top:hover .tooltip-text, .tooltip-bottom:hover .tooltip-text, .tooltip-top:active, .tooltip-top:active {
+.tooltip-top:hover .tooltip-text, .tooltip-bottom:hover .tooltip-text, .tooltip-top:active, .tooltip-bottom:active {
     visibility: visible;
     font-weight: 300;
 }
-
-tooltip-top:not(active), .tooltip-bottom:not(active) {
-    visibility:hidden;
-}
-
-
 
 
 /* -------------------- header styles  -------------------- */
@@ -504,7 +498,7 @@ footer hr {
     }
 
     header ul li {
-        font-size: 12px;
+        font-size: 11px;
     }
 
 
