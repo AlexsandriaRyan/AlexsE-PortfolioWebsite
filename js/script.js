@@ -31,9 +31,9 @@ function mouseOut4() {
 }
 
 function mouseOver5() {
-    document.getElementById("about").src = "./images/Icons/website-col.gif";
+    document.getElementById("website").src = "./images/Icons/website-col.gif";
 }
 
-function mouseOut6() {
-    document.getElementById("about").src = "./images/Icons/website-bw.jpg";
+function mouseOut5() {
+    document.getElementById("website").src = "./images/Icons/website-bw.jpg";
 }
