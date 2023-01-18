@@ -29,3 +29,11 @@ function mouseOver4() {
 function mouseOut4() {
     document.getElementById("contact").src = "./images/Icons/contact-bw.jpg";
 }
+
+function mouseOver5() {
+    document.getElementById("about").src = "./images/Icons/website-col.gif";
+}
+
+function mouseOut6() {
+    document.getElementById("about").src = "./images/Icons/website-bw.jpg";
+}
