@@ -87,7 +87,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
         setTimeout(function() {
             window.open(URL)
             mouseUp(id)
-          }, 3000)
+          }, 1000)
     }
 
     function mouseDown (id) {
