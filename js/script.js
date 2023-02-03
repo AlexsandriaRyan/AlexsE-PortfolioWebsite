@@ -1,7 +1,7 @@
 
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) { // for non-mobile devices...
 
-    function delay (URL) {
+    function delay (id, URL) {
         setTimeout(function() {
             window.open(URL)
           }, 0)
