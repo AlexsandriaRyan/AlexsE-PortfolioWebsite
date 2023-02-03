@@ -84,6 +84,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     // });
 
     function delay (id, URL) {
+        mouseDown(id);
         setTimeout(function() {
             window.open(URL)
             mouseUp(id)
