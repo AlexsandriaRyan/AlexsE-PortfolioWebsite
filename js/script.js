@@ -7,9 +7,14 @@
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
 
     // no delay on non-mobile devices
-    function delay (URL) { 
-        setTimeout (function() { window.location = URL}, 0);
-    }
+    $(function(){
+        $("a").click(function(evt){
+            var link = $(this).attr("href");
+            setTimeout(function() {
+                window.location.href = link;
+            }, 0);
+        });
+    });
 
     function mouseOver1() {
         document.getElementById("about").src = "./images/Icons/about-col.gif";
@@ -62,9 +67,14 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
   } else {
 
     // set delay on non-mobile devices so that the user can see onclick colour change
-    function delay (URL) { 
-        setTimeout (function() { window.location = URL}, 500);
-    }
+    $(function(){
+        $("a").click(function(evt){
+            var link = $(this).attr("href");
+            setTimeout(function() {
+                window.location.href = link;
+            }, 500);
+        });
+    });
 
     function onClick1() {
         document.getElementById("about").src = "./images/Icons/about-col.jpg";
