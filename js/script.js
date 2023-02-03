@@ -78,7 +78,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     // });
 
     function delay(URL) {
-        ssetTimeout( function() { window.location = URL }, 1000 );
+        setTimeout( function() { window.location = URL }, 1000 );
     }
 
     function mouseDown(id) {
