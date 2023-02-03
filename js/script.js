@@ -1,20 +1,15 @@
-//delay clicking links so that on mobile
-
-
-
-// execute only if on a computer
 
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
 
     // no delay on non-mobile devices
-    $(function(){
-        $("a").click(function(evt){
-            var link = $(this).attr("href");
-            setTimeout(function() {
-                window.location.href = link;
-            }, 0);
-        });
-    });
+    // $(function(){
+    //     $("a").click(function(evt){
+    //         var link = $(this).attr("href");
+    //         setTimeout(function() {
+    //             window.location.href = link;
+    //         }, 0);
+    //     });
+    // });
 
     function mouseOver1() {
         document.getElementById("about").src = "./images/Icons/about-col.gif";
