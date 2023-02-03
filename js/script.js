@@ -67,7 +67,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
             var link = $(this).attr("href");
             setTimeout(function() {
                 window.location.href = link;
-            }, 500);
+            }, 2000);
         });
     });
 
