@@ -1,13 +1,13 @@
 
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) { // for non-mobile devices...
 
-    function delay(URL) {
+    function delay (URL) {
         setTimeout(function() {
             window.open(URL)
           }, 0)
     }
 
-    function mouseOver(id) {
+    function mouseOver (id) {
         switch (id) {
             case "about":
                 document.getElementById("about").src = "./images/Icons/about-col.gif";
@@ -39,7 +39,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
     }
 
-    function mouseOut(id) {
+    function mouseOut (id) {
         switch (id) {
             case "about":
                 document.getElementById("about").src = "./images/Icons/about-bw.jpg";
@@ -84,16 +84,13 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     // });
 
     function delay (id, URL) {
-        mouseDown(id);
-
         setTimeout(function() {
             window.open(URL)
+            mouseUp(id)
           }, 3000)
-
-          mouseUp(id);
     }
 
-    function mouseDown(id) {
+    function mouseDown (id) {
 
         switch (id) {
             case "about":
@@ -125,7 +122,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
         }
     }
 
-    function mouseUp(id) {
+    function mouseUp (id) {
 
         switch (id) {
             case "about":
