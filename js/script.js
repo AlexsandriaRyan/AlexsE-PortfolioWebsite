@@ -39,9 +39,9 @@ function mouseOut5() {
 }
 
 function mouseOver6() {
-    document.getElementById("website").src = "./images/Icons/calculator-col.gif";
+    document.getElementById("calculator").src = "./images/Icons/calculator-col.gif";
 }
 
 function mouseOut6() {
-    document.getElementById("website").src = "./images/Icons/calculator-bw.jpg";
+    document.getElementById("calculator").src = "./images/Icons/calculator-bw.jpg";
 }
