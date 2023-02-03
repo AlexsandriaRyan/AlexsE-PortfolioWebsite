@@ -2,7 +2,9 @@
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) { // for non-mobile devices...
 
     function delay(URL) {
-        setTimeout( function() { window.open = URL }, 0 );
+        setTimeout(function() {
+            window.open(URL)
+          }, 0)
     }
 
     function mouseOver(id) {
@@ -82,7 +84,9 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     // });
 
     function delay (URL) {
-        setTimeout( function() { window.open = URL }, 2000 );
+        setTimeout(function() {
+            window.open(URL)
+          }, 3000)
     }
 
     function mouseDown(id) {
