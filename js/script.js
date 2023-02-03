@@ -82,7 +82,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     // });
 
     function delay(URL) {
-        setTimeout( function() { window.location = URL }, 1000 );
+        setTimeout(function() { window.open(URL, '_blank'); }, 2000)
     }
 
     function mouseDown(id) {
