@@ -37,3 +37,11 @@ function mouseOver5() {
 function mouseOut5() {
     document.getElementById("website").src = "./images/Icons/website-bw.jpg";
 }
+
+function mouseOver6() {
+    document.getElementById("website").src = "./images/Icons/calculator-col.gif";
+}
+
+function mouseOut6() {
+    document.getElementById("website").src = "./images/Icons/calculator-bw.jpg";
+}
