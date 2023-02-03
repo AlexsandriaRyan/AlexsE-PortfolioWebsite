@@ -83,10 +83,14 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     //     });
     // });
 
-    function delay (URL) {
+    function delay (id, URL) {
+        mouseDown(id);
+
         setTimeout(function() {
             window.open(URL)
           }, 3000)
+
+          mouseUp(id);
     }
 
     function mouseDown(id) {
