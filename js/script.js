@@ -68,14 +68,18 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
     
 
     // set delay on mobile devices so that the user can see onclick colour change
-    $(function(){
-        $("a").click(function(evt){
-            var link = $(this).attr("href");
-            setTimeout(function() {
-                window.location.href = link;
-            }, 2000);
-        });
-    });
+    // $(function(){
+    //     $("a").click(function(evt){
+    //         var link = $(this).attr("href");
+    //         setTimeout(function() {
+    //             window.location.href = link;
+    //         }, 2000);
+    //     });
+    // });
+
+    function delay(URL) {
+        ssetTimeout( function() { window.location = URL }, 1000 );
+    }
 
     function mouseDown(id) {
 
