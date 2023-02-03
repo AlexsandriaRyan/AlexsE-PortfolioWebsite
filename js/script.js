@@ -1,6 +1,10 @@
 
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) { // for non-mobile devices...
 
+    function delay(URL) {
+        setTimeout( function() { window.location = URL }, 0 );
+    }
+
     function mouseOver(id) {
         switch (id) {
             case "about":
