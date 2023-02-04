@@ -9,7 +9,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
     function delay2 (id, URL) { // same tab
         setTimeout(function() {
-            window.location(URL)
+            window.location = URL
           }, 0)
     }
 
@@ -83,6 +83,12 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
         setTimeout(function() {
             window.open(URL)
             mouseUp(id)
+          }, 1000)
+    }
+
+    function delay2 (id, URL) { // same tab
+        setTimeout(function() {
+            window.location(URL)
           }, 1000)
     }
 
