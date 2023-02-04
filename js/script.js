@@ -1,9 +1,15 @@
 
 if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) { // for non-mobile devices...
 
-    function delay (id, URL) {
+    function delay (id, URL) { // new tab
         setTimeout(function() {
             window.open(URL)
+          }, 0)
+    }
+
+    function delay2 (id, URL) { // same tab
+        setTimeout(function() {
+            window.location(URL)
           }, 0)
     }
 
@@ -72,17 +78,6 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
   } else { // for mobile devices...
     
-
-    // set delay on mobile devices so that the user can see onclick colour change
-    // $(function(){
-    //     $("a").click(function(evt){
-    //         var link = $(this).attr("href");
-    //         setTimeout(function() {
-    //             window.location.href = link;
-    //         }, 2000);
-    //     });
-    // });
-
     function delay (id, URL) {
         mouseDown(id);
         setTimeout(function() {
