@@ -88,7 +88,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
     function delay2 (id, URL) { // same tab
         setTimeout(function() {
-            window.location(URL)
+            window.location = URL
           }, 1000)
     }
 
