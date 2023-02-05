@@ -78,19 +78,19 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
   } else { // for mobile devices...
     
-    function delay (id, URL) {
-        mouseDown(id);
+    function delay (id, URL) { // new tab
+        mouseDown(id); // start coloured gif animation
         setTimeout(function() {
             window.open(URL)
-            mouseUp(id)
+            mouseUp(id) // end coloured gif animation
           }, 1000)
     }
 
     function delay2 (id, URL) { // same tab
-        mouseDown(id);
+        mouseDown(id); // start coloured gif animation
         setTimeout(function() {
             window.location = URL
-            mouseUp(id)
+            mouseUp(id) // end coloured gif animation
           }, 1000)
     }
 
