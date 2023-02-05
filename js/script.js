@@ -90,6 +90,7 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
         mouseDown(id);
         setTimeout(function() {
             window.location = URL
+            mouseUp(id)
           }, 1000)
     }
 
