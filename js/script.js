@@ -39,6 +39,10 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("calculator").src = "./images/Icons/calculator-col.gif";
                 break;
 
+            case "hangman":
+                document.getElementById("hangman").src = "./images/Icons/hangman-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -70,6 +74,10 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
             case "calculator":
                 document.getElementById("calculator").src = "./images/Icons/calculator-bw.jpg";
                 break;
+
+            case "hangman":
+            document.getElementById("hangman").src = "./images/Icons/hangman-bw.jpg";
+            break;
 
             default:
                 console.log("Error");
@@ -121,6 +129,10 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("calculator").src = "./images/Icons/calculator-col.gif";
                 break;
 
+            case "hangman":
+                document.getElementById("hangman").src = "./images/Icons/hangman-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -152,6 +164,10 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
             case "calculator":
                 document.getElementById("calculator").src = "./images/Icons/calculator-bw.jpg";
                 break;
+
+            case "hangman":
+            document.getElementById("hangman").src = "./images/Icons/hangman-bw.jpg";
+            break;
 
             default:
                 console.log("Error");
