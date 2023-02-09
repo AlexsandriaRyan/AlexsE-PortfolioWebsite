@@ -260,6 +260,11 @@ header .column2 a {
     box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
 }
 
+header .column2 a:hover {
+    background-color: rgb(var(--dark-blue));
+    color: white;
+}
+
 header .bold {
     font-weight:500;
     letter-spacing: 0.1em;
@@ -437,15 +442,16 @@ footer .column {
 }
 
 footer .column1 {
-    width:33.33%;
+    width:35%;
 }
 
 footer .column2 li {
+    width: 30%;
     float: left;
 }
 
 footer .column3 {
-    width:33.33%;
+    width:35%;
     text-align: right;
 }
 
@@ -468,7 +474,7 @@ footer hr {
     border: 0px;
     height: 1px;
     width: 100%;
-    margin: 5% 0% 5% 0%;
+    margin: 3% 0% 3% 0%;
     opacity: 1;
     background: rgb(var(--light-orange));
 }
@@ -477,7 +483,7 @@ footer hr {
 
 /* ///------------------------- Mobile Styles: 0px to 374px -------------------------///*/
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 900px) {
 
     .box {
         height: 2.5vw;
@@ -541,7 +547,7 @@ footer hr {
     }
 
     header ul li {
-        font-size: 11px;
+        font-size: 2vw;
     }
 
 
@@ -581,7 +587,7 @@ footer hr {
     }
 
     footer .container {
-        width: 80%;
+        width: 70%;
     }
 
     footer .column1 {
@@ -608,6 +614,7 @@ footer hr {
     footer .nav1 li img {
         height: 3vh;
     }
+
 }
 
 
@@ -627,7 +634,7 @@ footer hr {
 } */
 
 /* ///------------------------- Desktop Styles: greater than 1025px -------------------------///*/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 901px) {
 
     .box {
         height: 1.3vw;
@@ -668,16 +675,16 @@ footer hr {
     
     header .column1 {
         width: 60%;
-        font-size: 1.5vw;
+        font-size: calc(12px + 0.7vw);
     }
     
     header .column2 {
         width: 40%;
-        font-size: 1vw;
+        font-size: calc(10px + 0.3vw);
     }
     
     header .column2 .email-button {
-        font-size: 0.9vw;
+        font-size: calc(8px + 0.3vw);
     }
 
     header .menu {
@@ -720,13 +727,8 @@ footer hr {
     footer .container {
         width: 50%;
     }
-
-    footer .column {
-        width: 33.33%;
-    }
     
     footer .column2 {
-        max-width: 250px;
         text-align: center;
     }
     
@@ -736,8 +738,6 @@ footer hr {
     
     footer .nav1 li img {
         vertical-align: middle;
-        height: 1.5vw;
-        min-height: 12px;
-        max-height: 30px;
+        height: 1.6vw;
     }
 }
