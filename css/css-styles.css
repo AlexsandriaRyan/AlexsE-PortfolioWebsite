@@ -247,7 +247,7 @@ header .column2 a {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    border: 1px solid rgb(var(--dark-blue));
+    border: 1px solid rgb(var(--darker-blue));
     border-radius: 0.35rem;
     margin: auto;
     margin-top: 5%;
@@ -263,6 +263,7 @@ header .column2 a {
 header .column2 a:hover {
     background-color: rgb(var(--dark-blue));
     color: white;
+    font-weight: 500;
 }
 
 header .bold {
