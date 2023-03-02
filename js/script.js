@@ -43,6 +43,10 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("hangman").src = "./images/Icons/hangman-col.gif";
                 break;
 
+            case "wordle":
+                document.getElementById("wordle").src = "./images/Icons/wordle-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -76,8 +80,12 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 break;
 
             case "hangman":
-            document.getElementById("hangman").src = "./images/Icons/hangman-bw.jpg";
-            break;
+                document.getElementById("hangman").src = "./images/Icons/hangman-bw.jpg";
+                break;
+
+            case "wordle":
+                document.getElementById("wordle").src = "./images/Icons/wordle-bw.jpg";
+                break;
 
             default:
                 console.log("Error");
@@ -133,6 +141,10 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("hangman").src = "./images/Icons/hangman-col.gif";
                 break;
 
+            case "wordle":
+                document.getElementById("wordle").src = "./images/Icons/wordle-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -166,8 +178,12 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 break;
 
             case "hangman":
-            document.getElementById("hangman").src = "./images/Icons/hangman-bw.jpg";
-            break;
+                document.getElementById("hangman").src = "./images/Icons/hangman-bw.jpg";
+                break;
+
+            case "wordle":
+                document.getElementById("wordle").src = "./images/Icons/wordle-bw.jpg";
+                break;
 
             default:
                 console.log("Error");
