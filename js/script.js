@@ -46,6 +46,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
             case "wordle":
                 document.getElementById("wordle").src = "./images/Icons/wordle-col.gif";
                 break;
+            
+            case "realty":
+                document.getElementById("realty").src = "./images/Icons/realty-col.gif";
+                break;
+
+            case "dog":
+                document.getElementById("dog").src = "./images/Icons/dog-col.gif";
+                break;
+
+            case "tcpchat":
+                document.getElementById("tcpchat").src = "./images/Icons/tcpchat-col.gif";
+                break;
+
+            case "rpg":
+                document.getElementById("rpg").src = "./images/Icons/rpg-col.gif";
+                break;
 
             default:
                 console.log("Error");
@@ -87,6 +103,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("wordle").src = "./images/Icons/wordle-bw.jpg";
                 break;
 
+            case "realty":
+                document.getElementById("realty").src = "./images/Icons/realty-bw.jpg";
+                break;
+
+            case "dog":
+                document.getElementById("dog").src = "./images/Icons/dog-bw.jpg";
+                break;
+
+            case "tcpchat":
+                document.getElementById("tcpchat").src = "./images/Icons/tcpchat-bw.jpg";
+                break;
+
+            case "rpg":
+                document.getElementById("rpg").src = "./images/Icons/rpg-bw.jpg";
+                break;
+    
             default:
                 console.log("Error");
         }
@@ -145,6 +177,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("wordle").src = "./images/Icons/wordle-col.gif";
                 break;
 
+            case "realty":
+                document.getElementById("realty").src = "./images/Icons/realty-col.gif";
+                break;
+
+            case "dog":
+                document.getElementById("dog").src = "./images/Icons/dog-col.gif";
+                break;
+
+            case "tcpchat":
+                document.getElementById("tcpchat").src = "./images/Icons/tcpchat-col.gif";
+                break;
+
+            case "rpg":
+                document.getElementById("rpg").src = "./images/Icons/rpg-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -183,6 +231,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
             case "wordle":
                 document.getElementById("wordle").src = "./images/Icons/wordle-bw.jpg";
+                break;
+
+            case "realty":
+                document.getElementById("realty").src = "./images/Icons/realty-bw.jpg";
+                break;
+
+            case "dog":
+                document.getElementById("dog").src = "./images/Icons/dog-bw.jpg";
+                break;
+
+            case "tcpchat":
+                document.getElementById("tcpchat").src = "./images/Icons/tcpchat-bw.jpg";
+                break;
+
+            case "rpg":
+                document.getElementById("rpg").src = "./images/Icons/rpg-bw.jpg";
                 break;
 
             default:

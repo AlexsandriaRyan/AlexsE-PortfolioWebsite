@@ -93,32 +93,29 @@ h3 {
 
 .boxes {
     display: flex;
-    width: 50%;
+    width: 30%;
     align-items: center;
     justify-content: end;
     padding-right: 1%;
 }
 
 .box {
-    margin: 0vw 0vw 0vw 0.3vw;
+    border-radius: 15%;
 }
 
 .box1 {
     background-color: rgb(var(--muted-purple));
     border: 1px solid rgb(var(--dark-purple));
-    border-radius: 15%;
 }
 
 .box2 {
     background-color: rgb(var(--light-orange));
     border: 1px solid rgb(var(--dark-orange));
-    border-radius: 15%;
 }
 
 .box3 {
     background-color: rgb(var(--muted-pink));
     border: 1px solid rgb(var(--dark-pink));
-    border-radius: 15%;
 }
 
 /* tooltip help from https://www.w3schools.com/css/css_tooltip.asp */
@@ -338,7 +335,7 @@ main h2 {
     letter-spacing: 0.2em;
     margin: 1%;
     padding: 1%;
-    width: 50%;
+    width: 70%;
 }
 
 main .column-content {
@@ -487,6 +484,7 @@ footer hr {
 @media only screen and (max-width: 900px) {
 
     .box {
+        margin: 0vw 0vw 0vw 0.5vw;
         height: 2.5vw;
         width: 2.5vw;
     }
@@ -569,8 +567,8 @@ footer hr {
     }
 
     main .box {
-        height: 1vw;
-        width: 1vw;
+        height: 1.8vw;
+        width: 1.8vw;
     }
 
     main .content p {
@@ -638,6 +636,7 @@ footer hr {
 @media only screen and (min-width: 901px) {
 
     .box {
+        margin: 0vw 0vw 0vw 0.2vw;
         height: 1.3vw;
         width: 1.3vw;
     }
@@ -716,6 +715,10 @@ footer hr {
 
     main .content p {
         width: 50%;
+    }
+
+    main .row1 {
+        margin-bottom: 2%;
     }
     
 
