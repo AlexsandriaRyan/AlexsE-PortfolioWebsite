@@ -8,6 +8,3 @@ There is a video that walks through the design of this project. [Click Here](htt
 
 ## Copyright Notice
 © 2022-2023 Alexsandria Ryan All rights reserved.
-
-## Licensing
-Please view LICENSE.md for licensing information.
