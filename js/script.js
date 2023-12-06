@@ -63,6 +63,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("rpg").src = "./images/Icons/rpg-col.gif";
                 break;
 
+            case "music-store":
+                document.getElementById("music-store").src = "./images/Icons/music-store-col.gif";
+                break;
+
+            case "visual-novel":
+                document.getElementById("visual-novel").src = "./images/Icons/visual-novel-col.gif";
+                break;
+
+            case "insulin-pump":
+                document.getElementById("insulin-pump").src = "./images/Icons/insulin-pump-col.gif";
+                break;
+
+            case "zombie":
+                document.getElementById("zombie").src = "./images/Icons/zombie-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -117,6 +133,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
             case "rpg":
                 document.getElementById("rpg").src = "./images/Icons/rpg-bw.jpg";
+                break;
+
+            case "music-store":
+                document.getElementById("music-store").src = "./images/Icons/music-store-bw.jpg";
+                break;
+
+            case "visual-novel":
+                document.getElementById("visual-novel").src = "./images/Icons/visual-novel-bw.jpg";
+                break;
+
+            case "insulin-pump":
+                document.getElementById("insulin-pump").src = "./images/Icons/insulin-pump-bw.jpg";
+                break;
+
+            case "zombie":
+                document.getElementById("zombie").src = "./images/Icons/zombie-bw.jpg";
                 break;
     
             default:
@@ -193,6 +225,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
                 document.getElementById("rpg").src = "./images/Icons/rpg-col.gif";
                 break;
 
+            case "music-store":
+                document.getElementById("music-store").src = "./images/Icons/music-store-col.gif";
+                break;
+
+            case "visual-novel":
+                document.getElementById("visual-novel").src = "./images/Icons/visual-novel-col.gif";
+                break;
+
+            case "insulin-pump":
+                document.getElementById("insulin-pump").src = "./images/Icons/insulin-pump-col.gif";
+                break;
+
+            case "zombie":
+                document.getElementById("zombie").src = "./images/Icons/zombie-col.gif";
+                break;
+
             default:
                 console.log("Error");
         }
@@ -247,6 +295,22 @@ if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === f
 
             case "rpg":
                 document.getElementById("rpg").src = "./images/Icons/rpg-bw.jpg";
+                break;
+
+            case "music-store":
+                document.getElementById("music-store").src = "./images/Icons/music-store-bw.jpg";
+                break;
+
+            case "visual-novel":
+                document.getElementById("visual-novel").src = "./images/Icons/visual-novel-bw.jpg";
+                break;
+
+            case "insulin-pump":
+                document.getElementById("insulin-pump").src = "./images/Icons/insulin-pump-bw.jpg";
+                break;
+
+            case "zombie":
+                document.getElementById("zombie").src = "./images/Icons/zombie-bw.jpg";
                 break;
 
             default:
